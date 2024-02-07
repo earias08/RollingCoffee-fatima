@@ -1,36 +1,36 @@
-import {Table} from "react-bootstrap";
+import {Table, Button} from "react-bootstrap";
 
 const Administrador = () => {
   return (
     <section>
-      <h1>Productos Disponibles</h1>
+      <div className="d-flex justify-content-between align-items-center">
+      <h1 className="my-4">Productos Disponibles</h1>
+      <Button><i class="bi bi-file-earmark-plus-fill"></i></Button>
+      </div>  
       <Table striped bordered hover>
-        <thead>
+        <thead className="text-center">
           <tr>
-            <th>#</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Username</th>
+            <th>Cod</th>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Url Imagen</th>
+            <th>Categoria</th>
+            <th>Opciones</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>1</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <Button className="mx-3"><i class="bi bi-pencil-square"></i></Button>
+                <Button><i className="bi bi-trash3-fill"></i></Button>
+            </td>
           </tr>
-          <tr>
-            <td>2</td>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td colSpan={2}>Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
+          
         </tbody>
       </Table>
     </section>

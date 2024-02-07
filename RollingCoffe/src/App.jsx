@@ -1,9 +1,11 @@
 //import { useState } from "react";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 import Menu from "./components/Menu";
-import Inicio from "./components/pages/Inicio";
-import Administrador from "./components/pages/Inicio";
+//import Inicio from "./components/pages/Inicio";
+import Administrador from "./components/pages/Administrador";
 import Footer from "./components/Footer";
 import { Container } from "react-bootstrap";
 import Error404 from "./components/pages/Error404";
