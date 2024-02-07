@@ -1,9 +1,10 @@
-import { useState } from "react";
+//import { useState } from "react";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Menu from "./components/Menu";
 import Inicio from "./components/pages/Inicio";
 import Footer from "./components/Footer";
+import { Container } from "react-bootstrap";
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -11,7 +12,10 @@ function App() {
   return (
     <>
       <Menu></Menu>
-      <Inicio></Inicio>
+      <Container className="contenPrincipal">
+        <Inicio></Inicio>
+      </Container>
+
       <Footer></Footer>
     </>
   );
