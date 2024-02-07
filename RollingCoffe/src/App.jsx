@@ -3,6 +3,7 @@ import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Menu from "./components/Menu";
 import Inicio from "./components/pages/Inicio";
+import Administrador from "./components/pages/Inicio";
 import Footer from "./components/Footer";
 import { Container } from "react-bootstrap";
 import Error404 from "./components/pages/Error404";
@@ -13,9 +14,10 @@ function App() {
   return (
     <>
       <Menu></Menu>
-      <Container className="contenPrincipal">
-        <Inicio></Inicio>
-        <Error404></Error404>
+      <Container className="contenPrincipal container-fluid">
+        {/*<Inicio></Inicio>*/}
+        {/*<Error404></Error404>*/}
+        <Administrador></Administrador>
       </Container>
 
       <Footer></Footer>
