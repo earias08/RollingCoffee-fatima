@@ -11,6 +11,7 @@ import { Container } from "react-bootstrap";
 import Error404 from "./components/pages/Error404";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Detalle from "./components/pages/Detalle";
+import CrearProducto from "./components/pages/CrearProducto";
 //import banner from "../src/assets/taza.jpg";
 
 function App() {
@@ -37,9 +38,14 @@ function App() {
           ></Route>
           <Route
             exact
+            path="/crear"
+            element={<CrearProducto></CrearProducto>}
+          ></Route>
+          {/*<Route
+            exact
             path="/administrador/crear"
             element={<Administrador></Administrador>}
-          ></Route>
+></Route>*/}
           <Route path="*" element={<Error404></Error404>}></Route>
         </Routes>
       </Container>
