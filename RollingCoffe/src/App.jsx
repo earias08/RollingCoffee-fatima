@@ -12,7 +12,7 @@ import Error404 from "./components/pages/Error404";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Detalle from "./components/pages/Detalle";
 import CrearProducto from "./components/pages/CrearProducto";
-//import banner from "../src/assets/taza.jpg";
+
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -20,9 +20,7 @@ function App() {
   return (
     <BrowserRouter>
       <Menu></Menu>
-      {/*<div id="contenBanner">
-        <img src={banner} alt="banner" id="imgBanner" />
-  </div>*/}
+      
       <Container className="contenPrincipal container-fluid">
         <Routes>
           <Route exact path="/" element={<Inicio></Inicio>}></Route>
