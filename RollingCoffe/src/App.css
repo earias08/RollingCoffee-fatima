@@ -22,7 +22,8 @@
 .btnError404{
   width: 100px;
   height: 40px;
-  background-color: #003c25; /*!important;*/
+  background-color: #014d2f !important;
+  border-color: #014d2f !important;
 }
 
 #contenBanner{
@@ -33,4 +34,8 @@
 #imgBanner{
   width: 100%;
   object-fit: cover;
+}
+.btnCard{
+  background-color: #014d2f !important;
+  border-color: #014d2f !important;
 }
