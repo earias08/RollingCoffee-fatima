@@ -5,7 +5,7 @@ const Administrador = () => {
     <section>
       <div className="d-flex justify-content-between align-items-center">
       <h1 className="my-4">Productos Disponibles</h1>
-      <Button><i class="bi bi-file-earmark-plus-fill"></i></Button>
+      <Button><i className="bi bi-file-earmark-plus-fill"></i></Button>
       </div>  
       <Table striped bordered hover>
         <thead className="text-center">
