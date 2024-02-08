@@ -20,8 +20,9 @@
 }
 
 .btnError404{
-  width: 100px;
-  height: 40px;
+  width: 155px;
+  height: 55px;
+  
   background-color: #014d2f !important;
   border-color: #014d2f !important;
 }
@@ -36,7 +37,7 @@
   height: 100%;
   object-fit: cover;
 }
-.btnCard{
+.btnColor{
   background-color: #014d2f !important;
   border-color: #014d2f !important;
 }

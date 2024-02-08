@@ -25,7 +25,7 @@ const Inicio = () => {
                   <b>Precio: $</b>
                 </Card.Text>
 
-                <Button className="btnCard" as={Link} to={"/detalle"}>Ver mas</Button>
+                <Button className="btnColor" as={Link} to={"/detalle"}>Ver mas</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -38,7 +38,7 @@ const Inicio = () => {
                   Descripcion: <br />
                   <b>Precio: $</b>
                 </Card.Text>
-                <Button className="btnCard" as={Link} to={"/detalle"}>
+                <Button className="btnColor" as={Link} to={"/detalle"}>
                   Ver mas
                 </Button>
               </Card.Body>
@@ -53,7 +53,7 @@ const Inicio = () => {
                   Descripcion: <br />
                   <b>Precio: $</b>
                 </Card.Text>
-                <Button className="btnCard" as={Link} to={"/detalle"}>Ver mas</Button>
+                <Button className="btnColor" as={Link} to={"/detalle"}>Ver mas</Button>
               </Card.Body>
             </Card>
           </Col>

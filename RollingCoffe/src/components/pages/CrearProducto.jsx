@@ -65,7 +65,7 @@ const CrearProducto = () => {
           <Form.Control as="textarea" rows={3} required />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button className="btnColor" type="submit">
           Guardar
         </Button>
       </Form>

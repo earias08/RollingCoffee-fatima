@@ -6,7 +6,7 @@ const Administrador = () => {
     <section>
       <div className="d-flex justify-content-between align-items-center">
       <h1 className="my-4">Productos Disponibles</h1>
-      <Button as={Link} to={"/crear"}><i className="bi bi-file-earmark-plus-fill" ></i></Button>
+      <Button as={Link} to={"/crear"}><i className="bi bi-file-earmark-plus-fill"  ></i></Button>
       </div>  
       <Table striped bordered hover>
         <thead className="text-center">
@@ -27,8 +27,8 @@ const Administrador = () => {
             <td></td>
             <td></td>
             <td>
-                <Button className="mx-3"><i className="bi bi-pencil-square"></i></Button>
-                <Button><i className="bi bi-trash3-fill"></i></Button>
+                <Button className="m-1" variant="warning"><i className="bi bi-pencil-square"></i></Button>
+                <Button className="m-1" variant="danger"><i className="bi bi-trash3-fill"></i></Button>
             </td>
           </tr>
           
