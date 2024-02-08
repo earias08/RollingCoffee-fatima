@@ -26,7 +26,7 @@ const Administrador = () => {
             <td></td>
             <td></td>
             <td>
-                <Button className="mx-3"><i class="bi bi-pencil-square"></i></Button>
+                <Button className="mx-3"><i className="bi bi-pencil-square"></i></Button>
                 <Button><i className="bi bi-trash3-fill"></i></Button>
             </td>
           </tr>
